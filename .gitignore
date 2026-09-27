@@ -1,0 +1,17 @@
+# Secrets : ne JAMAIS committer la clé de l'agent wallet
+.env
+.env.*
+!.env.example
+
+# Logs et fichiers d'exécution
+logs/
+*.log
+*.lock
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
